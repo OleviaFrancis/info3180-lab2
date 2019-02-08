@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="profile">
+  <div class="imgcontainer">
+      <img src="{{ url_for('static', filename='image/woman.jpg')}}" alt="Avatar" style="width:200px;height:250px;">
+      <h1>Olevia Francis</h1>
+    <p class="title">@ofran <br> Kingston, Jamaica <br> Joined {{startdate}}</p>
+  </div>
+
+  <div class="coon">
+    
+    <p>I am a smart and talented young woman who loves webside design and development.</p>
+    <div class= "bar">
+      <div class= "post">
+        <p>7</p>
+        <p>Posts</p>
+      </div>
+       <div class= "following">
+          <p>100</p>
+          <p>Following</p>
+        </div>
+        <div class= "followers">
+            <p>250</p>
+            <p>Followers</p>
+        </div>
+    </div>
+    <button>Follow</button>
+  </div>
+</div>
+{% endblock%}

@@ -1,3 +1,39 @@
 body {
     padding-top: 5rem;
 }
+
+.bar{
+  display:flex;
+  justify-content: center;
+}
+.bar div{
+  margin: 2%;
+}
+
+.profile{
+  margin:350px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 2%;
+}
+
+.profile .imgcontainer{
+  background-color: #3cb65a;
+}
+
+img{
+  border-radius: 50%;
+}
+
+button {
+  padding: 2px;
+  color: white;
+  background-color: #3cb65a;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+}
+
+.imgcontainer img{
+  margin-top: 2%;
+}
